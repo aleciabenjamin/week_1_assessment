@@ -1,0 +1,26 @@
+1.  variable = "variable"
+
+Data Types
+1.  string
+2.  boolean
+3.  hashes'
+4.  arrays
+5.  integers
+
+2.  2.5.1 :001 > car_1 = {wheels: 4, max_speed: 320, color: "turquoise"}
+    => {:wheels=>4, :max_speed=>320, :color=>"turquoise"} 
+    2.5.1 :002 > car_2 = {wheels: 3, max_speed: 115, color: "purple"}
+    => {:wheels=>3, :max_speed=>115, :color=>"purple"} 
+    2.5.1 :003 > cars = Array.new
+    => []  
+    2.5.1 :004 > cars = [car_1, car_2]
+    => [{:wheels=>4, :max_speed=>320, :color=>"turquoise"}, {:wheels=>3, :max_speed=>115, :color=>"purple"}] 
+    2.5.1 :005 > cars[1]
+    => {:wheels=>3, :max_speed=>115, :color=>"purple"} 
+    2.5.1 :006 > cars[1][:color]
+    => "purple" 
+
+4.  rspec --init
+
+    TDD allows us to think about what we want our code to do before we start writing
+    code and reduces debugging time.
